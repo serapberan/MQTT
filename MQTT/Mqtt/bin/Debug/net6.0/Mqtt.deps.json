@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Mqtt/1.0.0": {
+        "dependencies": {
+          "M2Mqtt": "4.2.0.1",
+          "MQTTnet": "4.2.1.781",
+          "MQTTnet.Extensions.ManagedClient": "4.2.1.781"
+        },
+        "runtime": {
+          "Mqtt.dll": {}
+        }
+      },
+      "M2Mqtt/4.2.0.1": {
+        "runtime": {
+          "lib/net45/M2Mqtt.Net.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "MQTTnet/4.2.1.781": {
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "assemblyVersion": "4.2.1.781",
+            "fileVersion": "4.2.1.781"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.2.1.781": {
+        "dependencies": {
+          "MQTTnet": "4.2.1.781"
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "assemblyVersion": "4.2.1.781",
+            "fileVersion": "4.2.1.781"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mqtt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "M2Mqtt/4.2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/wsuH+gtheVKAbRu1QT9IJjxNjVTa6+oL24Wi4Wa0Zh7SH70v5MUI9JW2IO1iGxA+fuz6J1uR0StAMMbr0g3Pw==",
+      "path": "m2mqtt/4.2.0.1",
+      "hashPath": "m2mqtt.4.2.0.1.nupkg.sha512"
+    },
+    "MQTTnet/4.2.1.781": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oKPAoW1Ynukm6ws6P3NmmMlNb3xIlPVf/89WVCkoWOJdz1dYtAdGYRdqe876pVsPru4j0uyU/hKf7iL3NU1r6w==",
+      "path": "mqttnet/4.2.1.781",
+      "hashPath": "mqttnet.4.2.1.781.nupkg.sha512"
+    },
+    "MQTTnet.Extensions.ManagedClient/4.2.1.781": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JkW4/p9ZgfV/w33AO1Ug5liAnQCdcXoytKx4BVgU5LznaasMDv24skMKkGyOf+/XO24OdFbbpx8kr9u13HJ/7w==",
+      "path": "mqttnet.extensions.managedclient/4.2.1.781",
+      "hashPath": "mqttnet.extensions.managedclient.4.2.1.781.nupkg.sha512"
+    }
+  }
+}

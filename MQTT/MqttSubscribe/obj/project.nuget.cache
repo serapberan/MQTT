@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "R2X3igEbiQelMx6F9NhPggXlSgzt7dW5TfDUTBwmmVa07+8Vx2F4UZ3d19HE3y2pgsv4sQQ93pQsT12yihtAgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\serapberan\\Desktop\\MQTT\\MqttSubscribe\\MqttSubscribe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\serapberan\\.nuget\\packages\\m2mqtt\\4.2.0.1\\m2mqtt.4.2.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'M2Mqtt 4.2.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "M2Mqtt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

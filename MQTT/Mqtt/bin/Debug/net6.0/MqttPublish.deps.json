@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MqttPublish/1.0.0": {
+        "dependencies": {
+          "M2Mqtt": "4.2.0.1"
+        },
+        "runtime": {
+          "MqttPublish.dll": {}
+        }
+      },
+      "M2Mqtt/4.2.0.1": {
+        "runtime": {
+          "lib/net45/M2Mqtt.Net.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MqttPublish/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "M2Mqtt/4.2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/wsuH+gtheVKAbRu1QT9IJjxNjVTa6+oL24Wi4Wa0Zh7SH70v5MUI9JW2IO1iGxA+fuz6J1uR0StAMMbr0g3Pw==",
+      "path": "m2mqtt/4.2.0.1",
+      "hashPath": "m2mqtt.4.2.0.1.nupkg.sha512"
+    }
+  }
+}
